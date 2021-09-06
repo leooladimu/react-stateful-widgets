@@ -49,6 +49,7 @@ export default function Moods() {
 
   const style = {
     fontSize: '1.5em',
+    fontFamily: 'skia',
     marginBottom: '0.3em',
     color: 'crimson', /* STEP 2 */
   };
