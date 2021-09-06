@@ -63,6 +63,7 @@ export default function Counter() {
 
   const style = {
     fontSize: '1.5em',
+    fontFamily: 'skia',
     marginBottom: '0.3em',
     color: 'royalblue', /* STEP 2 */
   };
