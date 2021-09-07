@@ -65,7 +65,7 @@ export default function Counter() {
     fontSize: '1.5em',
     fontFamily: 'skia',
     marginBottom: '0.3em',
-    color: { count % 2 === 0 ?  style.color === 'royalblue' : style.color === 'crimson' }
+    color: count % 2 === 0 ?  'royalblue' : 'crimson' 
      /* STEP 2 */
   };
  
@@ -74,7 +74,7 @@ export default function Counter() {
     <div className='widget-counter container'>
       <h2>Counter</h2>
       <div id='count' style={style}>
-        Number 0 is even {/* STEP 3 */}
+        Number { count } is even {/* STEP 3 */}
       </div>
       <div>
         <button id='increment' onClick={increment}>Increment</button>
