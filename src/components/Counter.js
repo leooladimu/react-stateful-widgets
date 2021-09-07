@@ -52,9 +52,11 @@ export default function Counter() {
   /* STEP 1 */
   const [count, setCount] = useState(0);
   const increment = () => {
+    setCount(count + 1)
     /* STEP 4 */
   };
   const decrement = () => {
+    setCount(count - 1)
     /* STEP 5 */
   };
   const reset = () => {
@@ -65,7 +67,7 @@ export default function Counter() {
     fontSize: '1.5em',
     fontFamily: 'skia',
     marginBottom: '0.3em',
-    color: count % 2 === 0 ?  'royalblue' : 'crimson' 
+    color: count % 2 === 0 ? 'royalblue' : 'crimson' 
      /* STEP 2 */
   };
  
