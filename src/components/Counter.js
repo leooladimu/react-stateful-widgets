@@ -60,6 +60,7 @@ export default function Counter() {
     /* STEP 5 */
   };
   const reset = () => {
+    setCount(0)
     /* STEP 6 */
   };
 
