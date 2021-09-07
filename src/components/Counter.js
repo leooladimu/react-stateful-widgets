@@ -65,9 +65,11 @@ export default function Counter() {
     fontSize: '1.5em',
     fontFamily: 'skia',
     marginBottom: '0.3em',
-    color: 'royalblue', /* STEP 2 */
+    color: { count % 2 === 0 ?  style.color === 'royalblue' : style.color === 'crimson' }
+     /* STEP 2 */
   };
-
+ 
+// If count is even, then "royalblue", else "crimson".
   return (
     <div className='widget-counter container'>
       <h2>Counter</h2>
